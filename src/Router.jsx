@@ -1,11 +1,12 @@
+import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
-import React from 'react';
+import { ImageBackground } from 'react-native';
+import { MaterialIcons } from '@expo/vector-icons';
 import Home from './pages/Home/Home';
 import History from './pages/History/History';
 import Profile from './pages/Profile/Profile';
 import Settings from './pages/Settings/Settings';
-import { ImageBackground } from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
@@ -24,7 +25,25 @@ const Router = () => {
       resizeMode="cover"
     >
       <NavigationContainer theme={navTheme}>
-        <Tab.Navigator screenOptions={{ headerShown: false }}>
+        <Tab.Navigator
+          screenOptions={{
+            headerShown: false,
+            tabBarStyle: {
+              position: 'absolute',
+              bottom: 10,
+              backgroundColor: 'rgba(0,0,0,0.28)',
+              borderRadius: 20,
+              borderTopWidth: 1,
+              borderColor: 'rgba(120, 70, 255, 0.6)',
+            },
+            tabBarActiveTintColor: 'rgba(120, 70, 255, 0.6)',
+            tabBarInactiveTintColor: 'rgba(255,255,255,0.75)',
+            tabBarLabelStyle: { fontWeight: '700' },
+            tabBarItemStyle: { paddingVertical: 6 },
+            tabBarHideOnKeyboard: true,
+          }}
+          sceneContainerStyle={{ backgroundColor: 'transparent' }}
+        >
           <Tab.Screen name="Home" component={Home} />
           <Tab.Screen name="History" component={History} />
           <Tab.Screen name="Profile" component={Profile} />

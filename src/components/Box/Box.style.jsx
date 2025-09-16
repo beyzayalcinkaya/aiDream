@@ -2,30 +2,32 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    flexDirection: 'row', // resim + yazı yanyana
+    flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#999',
-    borderRadius: 10,
-    padding: 16,
-    margin: 30,
+    backgroundColor: 'rgba(0,0,0,0.42)',
+    borderRadius: 20,
+    paddingVertical: 18,
+    paddingHorizontal: 18,
+    marginVertical: 10,
+    borderWidth: 1,
+    borderColor: 'rgba(120, 70, 255, 0.6)',
   },
   image: {
     width: 50,
     height: 50,
-    borderRadius: 8,
-    marginRight: 12,
   },
   textContainer: {
     flex: 1,
   },
   title: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#222',
+    fontSize: 20,
+    fontWeight: '800',
+    color: '#FFFFFF',
   },
   desc: {
     fontSize: 14,
-    color: '#666',
-    marginTop: 4,
+    color: 'rgba(255,255,255,0.78)',
+    marginTop: 6,
+    fontStyle: 'italic',
   },
 });

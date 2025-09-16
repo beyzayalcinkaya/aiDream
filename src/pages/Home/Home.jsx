@@ -20,7 +20,37 @@ const Home = () => {
         title="Rüyanı Anlat"
         desc="Yapay zeka sana yorumlasın"
         onPress={() => console.log('deneme')}
+        style={styles.singleBox}
       />
+      <View style={styles.row}>
+        <Box
+          title="Geçmiş"
+          desc="Önceki yorumlar"
+          onPress={() => console.log('deneme2')}
+          style={styles.halfBox}
+        />
+        <Box
+          title="Profil"
+          desc="Ayarlar ve bilgiler"
+          onPress={() => console.log('deneme3')}
+          style={styles.halfBox}
+        />
+      </View>
+      <View style={styles.row}>
+        <Box
+          title="Geçmiş"
+          desc="Önceki yorumlar"
+          onPress={() => console.log('deneme2')}
+          style={styles.halfBox}
+        />
+
+        <Box
+          title="Profil"
+          desc="Ayarlar ve bilgiler"
+          onPress={() => console.log('deneme3')}
+          style={styles.halfBox}
+        />
+      </View>
     </SafeAreaView>
   );
 };
