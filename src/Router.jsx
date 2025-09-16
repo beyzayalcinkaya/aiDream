@@ -2,7 +2,6 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { ImageBackground } from 'react-native';
-import { MaterialIcons } from '@expo/vector-icons';
 import Home from './pages/Home/Home';
 import History from './pages/History/History';
 import Profile from './pages/Profile/Profile';
@@ -31,7 +30,7 @@ const Router = () => {
             tabBarStyle: {
               position: 'absolute',
               bottom: 10,
-              backgroundColor: 'rgba(0,0,0,0.28)',
+              backgroundColor: 'rgba(0,0,0,1)',
               borderRadius: 20,
               borderTopWidth: 1,
               borderColor: 'rgba(120, 70, 255, 0.6)',
