@@ -30,6 +30,5 @@ export default StyleSheet.create({
     marginTop: 6,
     fontStyle: 'italic',
     lineHeight: 25,
-    textAlign: 'center',
   },
 });

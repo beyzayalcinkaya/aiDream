@@ -3,7 +3,7 @@ import { Text, TouchableOpacity, View, Image } from 'react-native';
 
 import styles from './Box.style';
 
-const Box = ({ title, desc, image, onPress, style }) => {
+const Box = ({ title, desc, image, onPress, style, column }) => {
   return (
     <TouchableOpacity
       style={[styles.container, style]}
@@ -14,6 +14,7 @@ const Box = ({ title, desc, image, onPress, style }) => {
       <View style={styles.textContainer}>
         {title && <Text style={styles.title}>{title}</Text>}
         {desc && <Text style={styles.desc}>{desc}</Text>}
+        {column && <Text style={styles.column}>{column}</Text>}
       </View>
     </TouchableOpacity>
   );

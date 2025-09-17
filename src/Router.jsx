@@ -3,8 +3,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { ImageBackground } from 'react-native';
 import Home from './pages/Home/Home';
+import Generate from './pages/Generate';
 import History from './pages/History/History';
-import Profile from './pages/Profile/Profile';
 import Settings from './pages/Settings/Settings';
 
 const Tab = createBottomTabNavigator();
@@ -44,8 +44,8 @@ const Router = () => {
           sceneContainerStyle={{ backgroundColor: 'transparent' }}
         >
           <Tab.Screen name="Home" component={Home} />
+          <Tab.Screen name="Generate" component={Generate} />
           <Tab.Screen name="History" component={History} />
-          <Tab.Screen name="Profile" component={Profile} />
           <Tab.Screen name="Settings" component={Settings} />
         </Tab.Navigator>
       </NavigationContainer>
