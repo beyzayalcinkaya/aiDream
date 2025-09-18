@@ -10,18 +10,30 @@ export default StyleSheet.create({
     margin: 10,
     borderWidth: 1,
     borderColor: 'rgba(120, 70, 255, 0.6)',
+    //minHeight: 60,
   },
   image: {
-    width: 50,
-    height: 50,
+    width: 24,
+    height: 24,
+  },
+  imageContainer: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 12,
   },
   textContainer: {
     flex: 1,
+    justifyContent: 'center',
   },
   title: {
     fontSize: 17,
     fontWeight: '800',
     color: '#FFFFFF',
+  },
+  titleWithDesc: {
     marginBottom: 5,
   },
   desc: {
