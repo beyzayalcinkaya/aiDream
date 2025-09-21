@@ -2,7 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { ImageBackground } from 'react-native';
+import { ImageBackground, Image } from 'react-native';
 import Home from './pages/Home/Home';
 import Generate from './pages/Generate';
 import History from './pages/History/History';
@@ -55,14 +55,65 @@ const Router = () => {
             tabBarActiveTintColor: 'rgba(120, 70, 255, 0.6)',
             tabBarInactiveTintColor: 'rgba(255,255,255,5)',
             tabBarLabelStyle: { fontWeight: '700' },
-            tabBarItemStyle: { paddingVertical: 5 },
+            tabBarItemStyle: { paddingVertical: 10 },
             tabBarHideOnKeyboard: true,
           }}
         >
-          <Tab.Screen name="Home" component={HomeStackNavigator} />
-          <Tab.Screen name="Generate" component={Generate} />
-          <Tab.Screen name="History" component={History} />
-          <Tab.Screen name="Settings" component={Settings} />
+          <Tab.Screen
+            name="Home"
+            component={HomeStackNavigator}
+            options={{
+              tabBarLabel: '', // tab nav daki yazıyı kaldırmak için
+              tabBarIcon: ({ color, size }) => (
+                <Image
+                  source={require('./assets/homeIconDream.png')}
+                  style={{ width: size, height: size, tintColor: color }}
+                />
+              ),
+            }}
+          />
+
+          <Tab.Screen
+            name="Generate"
+            component={Generate}
+            options={{
+              tabBarLabel: '', // tab nav daki yazıyı kaldırmak için
+              tabBarIcon: ({ color, size }) => (
+                <Image
+                  source={require('./assets/generate.png')}
+                  style={{ width: size, height: size, tintColor: color }}
+                />
+              ),
+            }}
+          />
+
+          <Tab.Screen
+            name="History"
+            component={History}
+            options={{
+              tabBarLabel: '', // tab nav daki yazıyı kaldırmak için
+              tabBarIcon: ({ color, size }) => (
+                <Image
+                  source={require('./assets/history.png')}
+                  style={{ width: size, height: size, tintColor: color }}
+                />
+              ),
+            }}
+          />
+
+          <Tab.Screen
+            name="Settings"
+            component={Settings}
+            options={{
+              tabBarLabel: '', // tab nav daki yazıyı kaldırmak için
+              tabBarIcon: ({ color, size }) => (
+                <Image
+                  source={require('./assets/settings.png')}
+                  style={{ width: size, height: size, tintColor: color }}
+                />
+              ),
+            }}
+          />
         </Tab.Navigator>
       </NavigationContainer>
     </ImageBackground>
