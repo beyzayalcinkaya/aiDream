@@ -1,17 +1,21 @@
 import React from 'react';
-import { Image, Text, View, ScrollView } from 'react-native';
+import { Text, View, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import styles from './Home.style';
+import { useNavigation } from '@react-navigation/native';
 import Box from '../../components/Box/Box';
+import blogData from '../../data/blogData.json';
+import styles from './Home.style';
 
 const Home = () => {
+  const navigation = useNavigation();
+
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView>
+      <ScrollView contentContainerStyle={{ paddingBottom: 80 }}>
         <View style={styles.topContainer}>
           {/* 
         BURAYA PREMİMUM OLUP OLMADIĞINI BİLDİREN KUTUCUK GELECEK.
-        TEXT İLE ALTLI ÜSTÜ OLACAKLAR. 
+        TEXT İLE ALTLI ÜSTÜ OLACAKLAR. ya da premium baloncuğu iconu falan bilmiyorum 
          */}
           <Text style={styles.title}>
             RÜYANI ANLAT, {'\n'} YAPAY ZEKA AÇIKLASIN
@@ -21,20 +25,20 @@ const Home = () => {
           <Box
             title="Rüyanda ne gördün?"
             desc="Yapay zekanın detaylı ve eksiksiz analiz edebilmesi için hatırladığınız bütün ayrıntıları girin..."
-            onPress={() => console.log('deneme')}
+            onPress={() => navigation.navigate('Generate')}
             style={styles.singleBox}
           />
           <View style={styles.row}>
             <Box
               title="Sigmund Freud"
               desc="Sigmund Freud yorumlasın..."
-              onPress={() => console.log('deneme2')}
+              onPress={() => navigation.navigate('Generate')}
               style={styles.halfBox}
             />
             <Box
               title="Din"
               desc="Rüyam Dini Açıdan Yorumlansın..."
-              onPress={() => console.log('deneme3')}
+              onPress={() => navigation.navigate('Generate')}
               style={styles.halfBox}
             />
           </View>
@@ -42,14 +46,14 @@ const Home = () => {
             <Box
               title="Ezoterik"
               desc="Astroloji, Ruhsal, Enerji, Işaretler..."
-              onPress={() => console.log('deneme2')}
+              onPress={() => navigation.navigate('Generate')}
               style={styles.halfBox}
             />
 
             <Box
               title="Kültürel"
               desc="Kültürel Açıdan Rüya Yorumla"
-              onPress={() => console.log('deneme3')}
+              onPress={() => navigation.navigate('Generate')}
               style={styles.halfBox}
             />
           </View>
@@ -57,30 +61,20 @@ const Home = () => {
         <View style={styles.dreamTells}>
           <Text style={styles.dreamTellsText}>RÜYALARIN SANA NE ANLATIYOR</Text>
           <View style={styles.dreamTellsBox}>
-            <Box
-              title="Rüyada Yılan Görmek"
-              desc="Çoğunlukla düşman, gizli tehdit veya kıskançlık..."
-              onPress={() => console.log('deneme3')}
-              style={styles.dreamTellsOption}
-            />
-            <Box
-              title="Rüyada Balık Görmek"
-              desc="Genelde kısmet, rızık ve bereketle ilişkilendirilir..."
-              onPress={() => console.log('deneme3')}
-              style={styles.dreamTellsOption}
-            />
-            <Box
-              title="Rüyada Köpek Görmek"
-              desc="Sadakat, dostluk ve koruyuculuk anlamına gelir.."
-              onPress={() => console.log('deneme3')}
-              style={styles.dreamTellsOption}
-            />
-            <Box
-              title="Rüyada Bebek Görmek"
-              desc="Yeni başlangıçlar, masumiyet ve umut demektir..."
-              onPress={() => console.log('deneme3')}
-              style={styles.dreamTellsOption}
-            />
+            {blogData.map(item => (
+              <Box
+                key={item.id}
+                title={item.title}
+                desc={item.desc}
+                onPress={() =>
+                  navigation.navigate('Blog', {
+                    title: item.title,
+                    desc2: item.desc2,
+                  })
+                }
+                style={styles.dreamTellsOption}
+              />
+            ))}
           </View>
         </View>
       </ScrollView>

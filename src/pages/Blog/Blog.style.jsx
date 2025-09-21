@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  dreamAnsContainer: {
-    marginTop: 20,
+  container: {
+    color: 'white',
   },
 });

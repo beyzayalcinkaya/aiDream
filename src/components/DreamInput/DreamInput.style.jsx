@@ -9,7 +9,7 @@ export default StyleSheet.create({
     marginHorizontal: 10,
     marginTop: 20,
     borderWidth: 1,
-    borderColor: 'rgba(90, 185, 237, 0.6)',
+    borderColor: 'rgba(120, 70, 255, 0.4)',
     fontSize: 16,
     minHeight: 180,
   },

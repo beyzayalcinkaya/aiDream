@@ -7,7 +7,8 @@ export default StyleSheet.create({
   button: {
     backgroundColor: 'rgba(0,0,0,0.42)',
     borderWidth: 2,
-    borderColor: 'rgba(90, 185, 237, 0.6)',
+    borderColor: 'rgba(120, 70, 255, 0.4)',
+
     padding: 18,
     borderRadius: 25,
     width: 300,

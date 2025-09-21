@@ -1,13 +1,30 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { ImageBackground } from 'react-native';
 import Home from './pages/Home/Home';
 import Generate from './pages/Generate';
 import History from './pages/History/History';
 import Settings from './pages/Settings/Settings';
+import Blog from './pages/Blog/Blog';
 
 const Tab = createBottomTabNavigator();
+const Stack = createNativeStackNavigator();
+
+function HomeStackNavigator() {
+  return (
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+        animation: 'none',
+      }}
+    >
+      <Stack.Screen name="HomeMain" component={Home} />
+      <Stack.Screen name="Blog" component={Blog} />
+    </Stack.Navigator>
+  );
+}
 
 const Router = () => {
   const navTheme = {
@@ -36,14 +53,13 @@ const Router = () => {
               borderColor: 'rgba(120, 70, 255, 0.6)',
             },
             tabBarActiveTintColor: 'rgba(120, 70, 255, 0.6)',
-            tabBarInactiveTintColor: 'rgba(255,255,255,0.75)',
+            tabBarInactiveTintColor: 'rgba(255,255,255,5)',
             tabBarLabelStyle: { fontWeight: '700' },
-            tabBarItemStyle: { paddingVertical: 6 },
+            tabBarItemStyle: { paddingVertical: 5 },
             tabBarHideOnKeyboard: true,
           }}
-          sceneContainerStyle={{ backgroundColor: 'transparent' }}
         >
-          <Tab.Screen name="Home" component={Home} />
+          <Tab.Screen name="Home" component={HomeStackNavigator} />
           <Tab.Screen name="Generate" component={Generate} />
           <Tab.Screen name="History" component={History} />
           <Tab.Screen name="Settings" component={Settings} />

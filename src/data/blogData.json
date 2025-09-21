@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "anahtar",
+      "title": "Rüyada anahtar görmek",
+      "desc": "Rüyada anahtar görmek, yeni fırsatların kapısının açılacağına...",
+      "desc2": "lorem impus kanki ya "
+    },
+    {
+      "id": 2,
+      "name": "yılan",
+      "title": "Rüyada yılan görmek",
+      "desc": "Rüyada yılan görmek, düşman veya kıskanç kimselere işaret...",
+      "desc2": "lorem impus kanki ya "
+    },
+    {
+      "id": 3,
+      "name": "balık",
+      "title": "Rüyada balık görmek",
+      "desc": "Rüyada balık görmek, kısmet, bolluk ve bereketin habercisi olarak...",
+      "desc2": "lorem impus kanki ya "
+    },
+    {
+      "id": 4,
+      "name": "köpek",
+      "title": "Rüyada köpek görmek",
+      "desc": "Rüyada köpek görmek, sadık dostlara veya bazen de düşmanlığa işaret...",
+      "desc2": "lorem impus kanki ya "
+    },
+    {
+      "id": 5,
+      "name": "bebek",
+      "title": "Rüyada bebek görmek",
+      "desc": "Rüyada bebek görmek, masumiyet, yeni başlangıçlar ve umutlarla...",
+      "desc2": "lorem impus kanki ya "
+    }
+  ]
+  

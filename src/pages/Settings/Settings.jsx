@@ -14,7 +14,7 @@ import deleteIcon from '../../assets/delete.png';
 const Settings = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView>
+      <ScrollView contentContainerStyle={{ paddingBottom: 80 }}>
         <View style={styles.containerBoxs}>
           <Text style={styles.title}>AYARLAR</Text>
           <Text style={styles.sectionTitle}>Uygulama</Text>
