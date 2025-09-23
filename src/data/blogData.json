@@ -1,38 +1,75 @@
 [
     {
-      "id": 1,
-      "name": "anahtar",
-      "title": "Rüyada anahtar görmek",
-      "desc": "Rüyada anahtar görmek, yeni fırsatların kapısının açılacağına...",
-      "desc2": "lorem impus kanki ya "
-    },
-    {
-      "id": 2,
-      "name": "yılan",
-      "title": "Rüyada yılan görmek",
-      "desc": "Rüyada yılan görmek, düşman veya kıskanç kimselere işaret...",
-      "desc2": "lorem impus kanki ya "
-    },
-    {
-      "id": 3,
-      "name": "balık",
-      "title": "Rüyada balık görmek",
-      "desc": "Rüyada balık görmek, kısmet, bolluk ve bereketin habercisi olarak...",
-      "desc2": "lorem impus kanki ya "
-    },
-    {
-      "id": 4,
-      "name": "köpek",
-      "title": "Rüyada köpek görmek",
-      "desc": "Rüyada köpek görmek, sadık dostlara veya bazen de düşmanlığa işaret...",
-      "desc2": "lorem impus kanki ya "
-    },
-    {
-      "id": 5,
-      "name": "bebek",
-      "title": "Rüyada bebek görmek",
-      "desc": "Rüyada bebek görmek, masumiyet, yeni başlangıçlar ve umutlarla...",
-      "desc2": "lorem impus kanki ya "
+        "id": 1,
+        "name": "anahtar",
+        "title": "Rüyada anahtar görmek",
+        "desc": "Rüyada anahtar görmek, yeni fırsatların kapısının açılacağına veya çözümlenmemiş meselelerin ortaya çıkacağına işaret eder.",
+        "pageTitle":"Rüyada Anahtar Görmek: Gizli Tehlikeler ve İçsel Dönüşüm Simgesi",
+        "pageTitleDesc":"Anahtar, rüya dilinde hem açma hem de kapama eylemini temsil eder. Bu nedenle, anahtar genellikle bilinçaltında erişim, fırsatlar ve kontrolle ilişkilendirilir. Rüyada anahtar görmek, yaşamınızda gizli kapıların aralanacağına, çözümlenmemiş meseleleri açığa çıkarma fırsatlarına veya kendi potansiyelinize ulaşma yolunda atacağınız adımlara işaret eder.",
+        "generalMeanTitle":"Anahtarı Görmenin Genel Anlamı",
+        "generalMeanDesc":"Anahtar, hayatınızdaki sorunları çözme veya yeni fırsatlar elde etme kapasitenizi simgeler. Kontrol ve güç, gizli bilgi ve keşif ile engellerin aşılmasını temsil eder.",
+        "genderMeanTitle":"Cinsiyete Göre Rüya Yorumu",
+        "genderMeanDesc":"Erkek için: İş, kariyer veya ilişkilerle ilgili fırsatlara dikkat çeker. Kadın için: Duygusal bağlar ve kişisel gelişimle ilgilidir. Evli/Bekar Durumu: Evli kişiler için evlilikte güven ve sorumlulukla ilgili mesajlar içerir; bekar kişiler için yeni fırsatlar ve ilişkilerle bağlantılıdır.",
+        "ageStatusTitle":"Yaş ve Sosyal Durumun Etkisi",
+        "ageStatusDesc":"Gençler için anahtar, öğrenme ve keşfetme sürecinde rehberlik eder. Orta yaş ve üzeri için, geçmiş deneyimlerden ders çıkarma ve hayatın kontrolünü yeniden ele alma ile ilgilidir. Sosyal çevre açısından, ilişkilerde gizli mesajlar veya fırsatları temsil eder.",
+        "psycStatusTitle":"Psikolojik ve Duygusal Katmanlar",
+        "psycStatusDesc":"Anahtar, içsel keşif, kontrol ihtiyacı ve bastırılmış duyguların açığa çıkma ihtimalini temsil eder.",
+        "typeTitle":"Anahtarın Türü ve Rengi",
+        "typeDesc":"Eski Anahtar: Geçmişle bağlantılı, eski meseleleri çözme. Yeni Anahtar: Yeni fırsatlar ve taze başlangıçlar. Büyük Anahtar: Önemli fırsatlar veya büyük değişiklikler. Küçük Anahtar: Küçük ama kritik çözümler. Altın Anahtar: Başarı ve değer. Gümüş Anahtar: Sezgi ve rehberlik. Siyah Anahtar: Gizli tehlikeler. Beyaz Anahtar: Masumiyet ve temiz başlangıç. Kırmızı Anahtar: Tutku ve acil uyarılar."
+      },
+      {
+        "id": 2,
+        "name": "yılan",
+        "title": "Rüyada yılan görmek",
+        "desc": "Rüyada yılan görmek, düşman veya kıskanç kimselere işaret edebileceği gibi, içsel dönüşüm ve bilinçaltındaki korkuları da simgeler.",
+        "pageTitle":"Rüyada Yılan Görmek: Gizli Tehlikeler ve İçsel Dönüşüm Simgesi",
+        "pageTitleDesc":"Yılan, rüyada hem tehlikeli hem de dönüştürücü bir simgedir. Yılan görmek, hayatınızda sizi bekleyen riskleri, bilinçaltınızdaki korkuları ve kişisel dönüşüm süreçlerini temsil eder.",
+        "generalMeanTitle":"Yılanı Görmenin Genel Anlamı",
+        "generalMeanDesc":"Yılan, düşmanlık, kıskançlık veya gizli tehlikeleri temsil edebilir. Aynı zamanda kişisel güç, dönüşüm ve bilinçaltı farkındalığı simgeler.",
+        "genderMeanTitle":"Cinsiyete Göre Rüya Yorumu",
+        "genderMeanDesc":"Erkek için: İş veya ilişkilerde dikkat edilmesi gereken tehlikeleri temsil eder. Kadın için: Duygusal ilişkiler ve sezgisel farkındalık ön plandadır. Evli/Bekar: Evli kişiler için aile içi uyarılar, bekar kişiler için yeni ilişkiler ve fırsatlar anlamı taşır.",
+        "ageStatusTitle":"Yaş ve Sosyal Durumun Etkisi",
+        "ageStatusDesc":"Gençler için yılan, çevresel riskler ve kişisel farkındalık anlamına gelir. Olgun kişiler için, geçmiş deneyimlerden öğrenme ve kişisel dönüşüm vurgulanır. Sosyal çevrede, ilişkilerde dikkat ve strateji gerektiğini gösterir.",
+        "psycStatusTitle":"Psikolojik ve Duygusal Katmanlar",
+        "psycStatusDesc":"Yılan, bastırılmış korkular, öfke veya içsel çatışmaları simgeler. Aynı zamanda dönüşüm ve bilinçaltı farkındalığın göstergesidir.",
+        "typeTitle":"Yılanın Türü ve Rengi",
+        "typeDesc":"Zehirli Yılan: Tehlike ve uyarı. Evcil veya Zararsız Yılan: İçsel dönüşüm ve kişisel gelişim. Siyah Yılan: Korkular ve bilinçaltı tehlikeler. Yeşil Yılan: Şifa ve yenilenme. Kırmızı Yılan: Tutku ve duygusal yoğunluk. Beyaz Yılan: Masumiyet ve farkındalık."
+      },
+      {
+        "id": 3,
+        "name": "balık",
+        "title": "Rüyada balık görmek",
+        "desc": "Rüyada balık görmek, kısmet, bolluk ve bereketin habercisi olarak...",
+        "pageTitle":"Rüyada Balık Görmek: Gizli Tehlikeler ve İçsel Dönüşüm Simgesi",
+        "pageTitleDesc":"Balık, rüyalarda genellikle bilinçaltı, duygular ve ruhsal farkındalıkla ilişkilendirilir. Su ile iç içe olması, balığın duygusal derinlikleri ve sezgileri temsil ettiğini gösterir. Rüyada balık görmek, kişinin kendi iç dünyasını keşfetme, duygusal ve ruhsal dönüşüm yaşama ihtiyacına işaret eder. Aynı zamanda, rüya sahibinin gizli yeteneklerini veya farkında olmadığı fırsatları simgeleyebilir.",
+        "generalMeanTitle":"Balığı Görmenin Genel Anlamı",
+        "generalMeanDesc":"Balık, yaşamda beklenmedik fırsatlar, kazanç veya bereket ile ilişkilendirilir. Balık rüyası, duygularınızı anlamanız ve onları yönetmeniz gerektiğini gösterir. Balık, kişisel gelişim ve içsel dönüşümün sembolüdür. Özellikle sudan çıkan veya yaralı balıklar, farkında olmadığınız riskleri simgeler.",
+        "genderMeanTitle":"Cinsiyete Göre Rüya Yorumu",
+        "genderMeanDesc":"Erkek için: Erkek rüyasında balık, iş ve maddi konularla ilgili fırsatları ve aynı zamanda duygusal gelişimi temsil eder. Yakalanan veya tutulan balık, başarı ve kazanç anlamına gelebilir.Kadın için: Kadın rüyasında balık, duygusal bağlar, sezgi ve yaratıcı potansiyele dikkat çeker. Balık, kadın için içsel farkındalık ve yeni fırsatlar anlamı taşır.Evli/Bekar Durumu: Evli kişilerde balık, aile ve evlilikteki uyum veya yeni sorumlulukları simgeler. Bekar kişilerde ise aşk hayatı ve yeni ilişkilerle bağlantılı fırsatları temsil eder.",
+        "ageStatusTitle":"Yaş ve Sosyal Durumun Etkisi",
+        "ageStatusDesc":"Gençler: Gençler için balık rüyası, kişisel gelişim ve hayat seçimleriyle ilgilidir. Duygusal farkındalık ve keşif sürecine işaret eder.Orta yaş ve üzeri: Daha olgun kişiler için balık, geçmiş deneyimlerden ders çıkarma, fırsatları değerlendirme ve ruhsal büyüme anlamına gelir.Sosyal Durum: Sosyal olarak aktif kişilerde balık, ilişkilerde ve sosyal çevrede fırsatları ve gizli mesajları temsil eder. Daha yalnız kişilerde ise balık, içsel farkındalık ve kendi duygusal kapasitesini keşfetme ile ilgilidir.",
+        "psycStatusTitle":"Psikolojik ve Duygusal Katmanlar",
+        "psycStatusDesc":"Sezgi ve İçgüdü: Balık, rüya sahibinin sezgilerine güvenmesi gerektiğini hatırlatır.Duygusal Temizlik: Balık, duygusal yaraların iyileşmesini ve içsel dengeyi simgeler.Gizli Potansiyel: Balık rüyası, farkında olmadığınız yeteneklerin veya fırsatların ortaya çıkma ihtimaline işaret eder.",
+        "typeTitle":"Balık Türü ve Rengi",
+        "typeDesc":"Tatlı Su Balığı: Duygusal ve kişisel gelişimle ilgili mesajlar. Deniz Balığı: Daha geniş perspektif, sosyal veya iş hayatında fırsatlar. Yıpranmış veya Yaralı Balık: Zorluklar, ihmal edilmiş sorumluluklar veya çözülmemiş duygular. Yüzeyde Yüzücü Balık: Açık ve görünen fırsatlar, kolay erişilebilir şanslar. Altın Balık: Bereket, şans ve başarı. Gümüş Balık: Zarif fırsatlar, sezgi ve içsel rehberlik. Kırmızı Balık: Tutku, yoğun duygular veya acil uyarılar. Siyah Balık: Gizli tehlikeler, farkında olunmayan riskler veya bilinçaltındaki korkular. Beyaz Balık: Masumiyet, şifa ve ruhsal arınma."
+      },
+      {
+        "id": 4,
+        "name": "köpek",
+        "title": "Rüyada köpek görmek",
+        "desc": "Rüyada köpek görmek, sadık dostlara veya bazen de düşmanlığa işaret edebilir.",
+        "pageTitle":"Rüyada Köpek Görmek: Sadakat, Uyarı ve İçsel Dönüşüm Simgesi",
+        "pageTitleDesc":"Köpek, rüyada genellikle sadakat, dostluk, koruma ve güven duygularının sembolüdür. Ancak köpek aynı zamanda uyarıcı bir simge olarak, çevrenizdeki insanlarla olan ilişkilerinizi ve bilinçaltınızdaki korkularınızı temsil eder.",
+        "generalMeanTitle":"Köpeği Görmenin Genel Anlamı",
+        "generalMeanDesc":"Köpek, size destek olacak dostları veya güvenilir insanları temsil eder. Aynı zamanda saldırgan veya havlayan köpekler, dikkat edilmesi gereken durumları ve potansiyel tehlikeleri simgeler. Koruma ve içsel sezgi anlamına gelir.",
+        "genderMeanTitle":"Cinsiyete Göre Rüya Yorumu",
+        "genderMeanDesc":"Erkek için: Arkadaş ilişkileri, iş hayatı veya aile bağları ile ilgilidir. Kadın için: Duygusal bağlar ve güven temalarını öne çıkarır. Evli/Bekar: Evli kişiler için aile ve evlilikte sadakat ve güven; bekar kişiler için yeni dostluklar veya duygusal bağlar.",
+        "ageStatusTitle":"Yaş ve Sosyal Durumun Etkisi",
+        "ageStatusDesc":"Gençler için köpek, arkadaş ilişkileri, sosyal çevre ve güven konularında farkındalık yaratır. Olgun kişiler için, geçmiş deneyimlerden ders çıkarma ve ilişkilerde sadakati sorgulama anlamına gelir. Sosyal çevrede, dikkat ve kişisel sınırlar önemlidir.",
+        "psycStatusTitle":"Psikolojik ve Duygusal Katmanlar",
+        "psycStatusDesc":"Köpek, sadakat, bağlılık, korku ve uyarı mesajlarını temsil eder. Dostane köpekler, koruma ve içsel güç simgesidir. Saldırgan köpekler, çözülmemiş çatışmalar veya potansiyel tehditleri gösterir.",
+        "typeTitle":"Köpeğin Türü ve Rengi",
+        "typeDesc":"Evcil/Dost Köpek: Sadakat, güven ve dostluğu temsil eder. Saldırgan veya Vahşi Köpek: Tehlike, ihanet veya çözülmemiş çatışmalar. Küçük Köpek: Küçük ama önemli uyarılar veya dikkat gerektiren durumlar. Büyük Köpek: Büyük sorumluluklar veya önemli ilişkiler. Siyah Köpek: Gizli tehlikeler, bilinçaltındaki korkular veya ihanet. Beyaz Köpek: Saf niyet, masumiyet ve koruma. Kahverengi Köpek: Denge, sadakat ve güvenilir arkadaşlık. Renkli veya Karma Renkli Köpek: Duygusal karmaşıklık, belirsizlik veya farklı karakterlerle ilişkiler."
     }
   ]
   

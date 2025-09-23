@@ -3,7 +3,6 @@ import { ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import DreamInput from '../../components/DreamInput/DreamInput';
 import Button from '../../components/Button';
-import DreamCard from '../../components/DreamsCard';
 import styles from './Generate.style';
 
 const Generate = () => {

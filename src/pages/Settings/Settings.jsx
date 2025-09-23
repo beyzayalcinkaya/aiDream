@@ -16,7 +16,6 @@ const Settings = () => {
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={{ paddingBottom: 80 }}>
         <View style={styles.containerBoxs}>
-          <Text style={styles.title}>AYARLAR</Text>
           <Text style={styles.sectionTitle}>Uygulama</Text>
           <Box title="Bizi Değerlendir" imageSource={starIcon} />
           <Box title="Kullanım Koşulları" imageSource={fileIcon} />

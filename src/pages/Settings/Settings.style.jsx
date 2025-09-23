@@ -8,13 +8,6 @@ export default StyleSheet.create({
     paddingTop: 20,
     paddingHorizontal: 10,
   },
-  title: {
-    fontSize: 35,
-    fontWeight: '600',
-    color: 'rgba(115, 157, 243, 0.9)',
-    margin: 15,
-    textAlign: 'center',
-  },
   sectionTitle: {
     fontSize: 17,
     fontWeight: '700',

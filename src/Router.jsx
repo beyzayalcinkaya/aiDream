@@ -77,7 +77,7 @@ const Router = () => {
             name="Generate"
             component={Generate}
             options={{
-              tabBarLabel: '', // tab nav daki yazıyı kaldırmak için
+              tabBarLabel: '',
               tabBarIcon: ({ color, size }) => (
                 <Image
                   source={require('./assets/generate.png')}
@@ -91,7 +91,7 @@ const Router = () => {
             name="History"
             component={History}
             options={{
-              tabBarLabel: '', // tab nav daki yazıyı kaldırmak için
+              tabBarLabel: '',
               tabBarIcon: ({ color, size }) => (
                 <Image
                   source={require('./assets/history.png')}
@@ -105,7 +105,7 @@ const Router = () => {
             name="Settings"
             component={Settings}
             options={{
-              tabBarLabel: '', // tab nav daki yazıyı kaldırmak için
+              tabBarLabel: '',
               tabBarIcon: ({ color, size }) => (
                 <Image
                   source={require('./assets/settings.png')}

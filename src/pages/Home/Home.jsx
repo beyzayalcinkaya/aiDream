@@ -66,12 +66,7 @@ const Home = () => {
                 key={item.id}
                 title={item.title}
                 desc={item.desc}
-                onPress={() =>
-                  navigation.navigate('Blog', {
-                    title: item.title,
-                    desc2: item.desc2,
-                  })
-                }
+                onPress={() => navigation.navigate('Blog', { id: item.id })}
                 style={styles.dreamTellsOption}
               />
             ))}
