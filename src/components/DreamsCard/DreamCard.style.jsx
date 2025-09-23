@@ -2,7 +2,6 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: 'rgba(16,16,24,0.9)',
     borderRadius: 24,
     margin: 15,
     padding: 25,
@@ -41,14 +40,14 @@ export default StyleSheet.create({
     textTransform: 'uppercase',
   },
   dreamDesc: {
-    color: 'rgba(255,255,255,0.75)',
+    color: 'rgba(255,255,255,0.85)',
     fontSize: 16,
     lineHeight: 26,
     letterSpacing: 0.3,
     fontWeight: '500',
   },
   answerDesc: {
-    color: 'rgba(255,255,255,0.75)',
+    color: 'rgba(255,255,255,0.85)',
     fontSize: 16,
     lineHeight: 26,
     letterSpacing: 0.3,

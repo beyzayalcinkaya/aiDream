@@ -5,7 +5,6 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   button: {
-    backgroundColor: 'rgba(0,0,0,0.42)',
     borderWidth: 2,
     borderColor: 'rgba(120, 70, 255, 0.4)',
 

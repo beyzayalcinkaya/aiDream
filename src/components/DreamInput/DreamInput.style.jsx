@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   dreamInput: {
     color: 'white',
-    backgroundColor: 'rgba(0,0,0,0.42)',
     borderRadius: 20,
     padding: 20,
     marginHorizontal: 10,
