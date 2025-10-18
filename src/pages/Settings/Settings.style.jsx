@@ -5,7 +5,7 @@ export default StyleSheet.create({
     flex: 1,
   },
   containerBoxs: {
-    paddingTop: 20,
+    paddingTop: 40,
     paddingHorizontal: 10,
   },
   sectionTitle: {

@@ -1,28 +1,13 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: 'rgba(255,255,255,0.04)',
-    borderRadius: 20,
-    padding: 20,
-    margin: 10,
-    borderWidth: 1,
-    borderColor: 'rgba(167, 139, 250, 0.35)',
-    //minHeight: 60,
+  imageContainer: {
+    marginRight: 12,
   },
   image: {
-    width: 24,
-    height: 24,
-  },
-  imageContainer: {
-    width: 32,
-    height: 32,
-    borderRadius: 16,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginRight: 12,
+    width: 65,
+    height: 65,
+    borderRadius: 10,
   },
   textContainer: {
     flex: 1,
@@ -30,17 +15,31 @@ export default StyleSheet.create({
   },
   title: {
     fontSize: 17,
-    fontWeight: '800',
-    color: '#F5F3FF',
+    fontWeight: '700',
+    color: '#fff',
+    fontFamily: 'Avenir',
   },
   titleWithDesc: {
     marginBottom: 5,
   },
   desc: {
     fontSize: 15,
+    fontFamily: 'Arial',
     color: 'rgba(245,243,255,0.82)',
     marginTop: 6,
     fontStyle: 'italic',
     lineHeight: 25,
+  },
+  gradientBorder: {
+    borderRadius: 20,
+    padding: 2,
+    margin: 10,
+  },
+  innerBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'rgba(139, 116, 230, 0.1)',
+    borderRadius: 20,
+    padding: 20,
   },
 });

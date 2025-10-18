@@ -31,7 +31,7 @@ const Router = () => {
     ...DefaultTheme,
     colors: {
       ...DefaultTheme.colors,
-      background: '#42214a', //#391d54
+      background: '#0E0920', //#391d54 ve 140436
     },
   };
   return (
@@ -42,7 +42,7 @@ const Router = () => {
           tabBarStyle: {
             position: 'absolute',
             bottom: 10,
-            backgroundColor: '#42214a',
+            backgroundColor: '#0E0920',
             borderRadius: 20,
             borderTopWidth: 1,
             borderColor: 'rgba(167, 139, 250, 0.35)',

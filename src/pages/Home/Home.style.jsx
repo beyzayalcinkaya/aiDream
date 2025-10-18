@@ -9,10 +9,11 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontSize: 26,
-    fontWeight: '700',
-    color: '#FFFFFF',
-    textAlign: 'center',
+    fontSize: 28,
+    fontFamily: 'Arial',
+    fontWeight: '900',
+    color: '#fff',
+
     lineHeight: 40,
   },
   singleBox: {
@@ -29,8 +30,10 @@ export default StyleSheet.create({
     flex: 1,
   },
   dreamTellsText: {
-    fontSize: 20,
-    fontWeight: '500',
+    fontFamily: 'Arial',
+    fontSize: 25,
+    fontWeight: '700',
+    lineHeight: 30,
     color: '#FFFFFF',
     padding: 10,
     marginTop: 40,

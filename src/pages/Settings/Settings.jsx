@@ -21,7 +21,6 @@ const Settings = () => {
   };
 
   const handleLanguageSelect = language => {
-    // Dil seçimi işlevi buraya eklenecek
     console.log('Selected language:', language);
     setIsLanguageSelectorVisible(false);
   };
@@ -35,18 +34,33 @@ const Settings = () => {
       <ScrollView contentContainerStyle={{ paddingBottom: 80 }}>
         <View style={styles.containerBoxs}>
           <Text style={styles.sectionTitle}>Uygulama</Text>
-          <Box title="Bizi Değerlendir" imageSource={starIcon} />
-          <Box title="Kullanım Koşulları" imageSource={fileIcon} />
-          <Box title="Gizlilik Politikası" imageSource={privacyIcon} />
-          <Box title="İletişim" imageSource={contactIcon} />
+          <Box
+            title="Bizi Değerlendir"
+            imageSource={starIcon}
+            imageStyle={{ width: 25, height: 25 }}
+          />
+          <Box
+            title="Kullanım Koşulları"
+            imageSource={fileIcon}
+            imageStyle={{ width: 25, height: 25 }}
+          />
+          <Box
+            title="Gizlilik Politikası"
+            imageSource={privacyIcon}
+            imageStyle={{ width: 25, height: 25 }}
+          />
+          <Box
+            title="İletişim"
+            imageSource={contactIcon}
+            imageStyle={{ width: 25, height: 25 }}
+          />
           <Box
             title="Dil"
             imageSource={languageIcon}
             onPress={handleLanguagePress}
+            imageStyle={{ width: 25, height: 25 }}
           />
-          <Text style={styles.sectionTitle}>Hesap</Text>
-          <Box title="Çıkış Yap" imageSource={logoutIcon} />
-          <Box title="Hesabı Sil" imageSource={deleteIcon} />
+          {/* buraya premiumla ilgili bir şey gelebilir. */}
         </View>
       </ScrollView>
 
