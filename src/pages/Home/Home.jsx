@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, ScrollView, Image } from 'react-native';
+import { View, ScrollView, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import Box from '../../components/Box/Box';
@@ -9,7 +9,6 @@ import sigmund from '../../assets/sigmund.png';
 import religion from '../../assets/religion.png';
 import ezoterik from '../../assets/ezoterik.png';
 import culture from '../../assets/culture.png';
-import background from '../../assets/dreamBoxBackground.png';
 import styles from './Home.style';
 const imageMap = {
   'key.png': require('../../assets/key.png'),
@@ -35,64 +34,46 @@ const Home = () => {
           <Box
             title="Rüyanda ne gördün?"
             desc="Yapay zekanın detaylı ve eksiksiz analiz edebilmesi için hatırladığınız bütün ayrıntıları girin..."
-            onPress={() => navigation.navigate('Generate')}
+            onPress={() =>
+              navigation.navigate('Generate', { category: 'normal' })
+            }
             style={styles.singleBox}
           />
-          {/** <View style={styles.row}>
-            <Box
-              title="Sigmund Freud"
-              desc="Sigmund Freud yorumlasın..."
-              onPress={() => navigation.navigate('Generate')}
-              style={styles.halfBox}
-            />
-            <Box
-              title="Din"
-              desc="Rüyam Dini Açıdan Yorumlansın..."
-              onPress={() => navigation.navigate('Generate')}
-              style={styles.halfBox}
-            />
-          </View>
-          <View style={styles.row}>
-            <Box
-              title="Ezoterik"
-              desc="Astroloji, Ruhsal, Enerji, Işaretler..."
-              onPress={() => navigation.navigate('Generate')}
-              style={styles.halfBox}
-            />
 
-            <Box
-              title="Kültürel"
-              desc="Kültürel Açıdan Rüya Yorumla"
-              onPress={() => navigation.navigate('Generate')}
-              style={styles.halfBox}
-            />
-          </View>*/}
           <Box
             imageSource={sigmund}
             title="Sigmund Freud"
             desc="Sigmund Freud yorumlasın..."
-            onPress={() => navigation.navigate('Generate')}
+            onPress={() =>
+              navigation.navigate('Generate', { category: 'freud' })
+            }
             style={styles.halfBox}
           />
           <Box
             imageSource={religion}
             title="Din"
             desc="Rüyam Dini Açıdan Yorumlansın..."
-            onPress={() => navigation.navigate('Generate')}
+            onPress={() =>
+              navigation.navigate('Generate', { category: 'religion' })
+            }
             style={styles.halfBox}
           />
           <Box
             imageSource={ezoterik}
             title="Ezoterik"
             desc="Astroloji, Ruhsal, Enerji, Işaretler..."
-            onPress={() => navigation.navigate('Generate')}
+            onPress={() =>
+              navigation.navigate('Generate', { category: 'esoteric' })
+            }
             style={styles.halfBox}
           />
           <Box
             imageSource={culture}
             title="Kültürel"
             desc="Kültürel Açıdan Rüya Yorumla"
-            onPress={() => navigation.navigate('Generate')}
+            onPress={() =>
+              navigation.navigate('Generate', { category: 'cultural' })
+            }
             style={styles.halfBox}
           />
         </View>
