@@ -5,15 +5,14 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   button: {
-    borderWidth: 2,
-    borderColor: 'rgba(120, 70, 255, 0.4)',
-
+    backgroundColor: '#7C3AED',
+    borderWidth: 0,
     padding: 18,
     borderRadius: 25,
     width: 300,
   },
   buttonText: {
-    color: '#fff',
+    color: '#F5F3FF',
     fontSize: 16,
     textAlign: 'center',
     fontWeight: 'bold',

@@ -2,7 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { ImageBackground, Image } from 'react-native';
+import { Image } from 'react-native';
 import Home from './pages/Home/Home';
 import Generate from './pages/Generate';
 import History from './pages/History/History';
@@ -31,15 +31,10 @@ const Router = () => {
     ...DefaultTheme,
     colors: {
       ...DefaultTheme.colors,
-      background: 'transparent',
+      background: '#0E0920',
     },
   };
   return (
-    <ImageBackground
-      source={require('./assets/dreamBackground.png')}
-      style={{ flex: 1 }}
-      resizeMode="cover"
-    >
       <NavigationContainer theme={navTheme}>
         <Tab.Navigator
           screenOptions={{
@@ -47,13 +42,13 @@ const Router = () => {
             tabBarStyle: {
               position: 'absolute',
               bottom: 10,
-              backgroundColor: 'rgba(0,0,0,1)',
+              backgroundColor: 'rgba(18, 12, 36, 0.92)',
               borderRadius: 20,
               borderTopWidth: 1,
-              borderColor: 'rgba(120, 70, 255, 0.6)',
+              borderColor: 'rgba(167, 139, 250, 0.35)',
             },
-            tabBarActiveTintColor: 'rgba(120, 70, 255, 0.6)',
-            tabBarInactiveTintColor: 'rgba(255,255,255,5)',
+            tabBarActiveTintColor: '#A78BFA',
+            tabBarInactiveTintColor: 'rgba(245,243,255,0.6)',
             tabBarLabelStyle: { fontWeight: '700' },
             tabBarItemStyle: { paddingVertical: 10 },
             tabBarHideOnKeyboard: true,
@@ -116,7 +111,6 @@ const Router = () => {
           />
         </Tab.Navigator>
       </NavigationContainer>
-    </ImageBackground>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TouchableOpacity, ScrollView, ImageBackground } from 'react-native';
+import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import blogData from '../../data/blogData.json';
@@ -14,11 +14,6 @@ const Blog = () => {
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <ImageBackground
-        source={require('../../assets/dreamBackground.png')}
-        style={styles.background}
-        imageStyle={styles.backgroundImage}
-      >
         <View style={styles.header}>
           <TouchableOpacity
             style={styles.backButton}
@@ -66,7 +61,6 @@ const Blog = () => {
           </View>
           </View>
         </ScrollView>
-      </ImageBackground>
     </SafeAreaView>
   );
 };

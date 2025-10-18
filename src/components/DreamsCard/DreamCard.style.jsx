@@ -6,17 +6,17 @@ export default StyleSheet.create({
     margin: 15,
     padding: 25,
     borderWidth: 1,
-    borderColor: 'rgba(130, 163, 240, 0.4)',
+    borderColor: 'rgba(167, 139, 250, 0.35)',
   },
 
   titleContainer: {
     marginBottom: 20,
     paddingBottom: 16,
     borderBottomWidth: 1,
-    borderBottomColor: 'rgba(90, 127, 236, 0.3)',
+    borderBottomColor: 'rgba(167, 139, 250, 0.18)',
   },
   title: {
-    color: 'rgba(186, 199, 239, 0.8)',
+    color: 'rgba(235, 220, 254, 0.9)',
     fontStyle: 'italic',
     fontSize: 17,
     textAlign: 'center',
@@ -27,13 +27,13 @@ export default StyleSheet.create({
   section: {
     marginBottom: 20,
     padding: 16,
-    backgroundColor: 'rgba(120, 70, 255, 0.08)',
+    backgroundColor: 'rgba(124, 58, 237, 0.10)',
     borderRadius: 15,
     borderLeftWidth: 2,
-    borderLeftColor: 'rgba(62, 142, 207, 0.6)',
+    borderLeftColor: 'rgba(167, 139, 250, 0.5)',
   },
   sectionTitle: {
-    color: '#rgba(120, 70, 255, 0.9)',
+    color: 'rgba(120, 70, 255, 0.9)',
     fontSize: 15,
     fontWeight: '600',
     marginBottom: 12,
@@ -56,7 +56,7 @@ export default StyleSheet.create({
   },
   line: {
     height: 2,
-    backgroundColor: 'rgba(120, 70, 255, 0.4)',
+    backgroundColor: 'rgba(167, 139, 250, 0.35)',
     marginVertical: 16,
     borderRadius: 1,
   },
@@ -67,7 +67,7 @@ export default StyleSheet.create({
     marginTop: 8,
     paddingTop: 16,
     borderTopWidth: 1,
-    borderTopColor: 'rgba(120, 70, 255, 0.2)',
+    borderTopColor: 'rgba(167, 139, 250, 0.22)',
   },
   dateText: {
     color: 'rgba(255,255,255,0.7)',

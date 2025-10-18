@@ -13,13 +13,14 @@ import logoutIcon from '../../assets/logout.png';
 import deleteIcon from '../../assets/delete.png';
 
 const Settings = () => {
-  const [isLanguageSelectorVisible, setIsLanguageSelectorVisible] = useState(false);
+  const [isLanguageSelectorVisible, setIsLanguageSelectorVisible] =
+    useState(false);
 
   const handleLanguagePress = () => {
     setIsLanguageSelectorVisible(true);
   };
 
-  const handleLanguageSelect = (language) => {
+  const handleLanguageSelect = language => {
     // Dil seçimi işlevi buraya eklenecek
     console.log('Selected language:', language);
     setIsLanguageSelectorVisible(false);
@@ -38,13 +39,17 @@ const Settings = () => {
           <Box title="Kullanım Koşulları" imageSource={fileIcon} />
           <Box title="Gizlilik Politikası" imageSource={privacyIcon} />
           <Box title="İletişim" imageSource={contactIcon} />
-          <Box title="Dil" imageSource={languageIcon} onPress={handleLanguagePress} />
+          <Box
+            title="Dil"
+            imageSource={languageIcon}
+            onPress={handleLanguagePress}
+          />
           <Text style={styles.sectionTitle}>Hesap</Text>
           <Box title="Çıkış Yap" imageSource={logoutIcon} />
           <Box title="Hesabı Sil" imageSource={deleteIcon} />
         </View>
       </ScrollView>
-      
+
       <LanguageSelector
         visible={isLanguageSelectorVisible}
         onClose={handleCloseLanguageSelector}

@@ -13,10 +13,7 @@ const Home = () => {
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={{ paddingBottom: 80 }}>
         <View style={styles.topContainer}>
-          {/* 
-        BURAYA PREMİMUM OLUP OLMADIĞINI BİLDİREN KUTUCUK GELECEK.
-        TEXT İLE ALTLI ÜSTÜ OLACAKLAR. ya da premium baloncuğu iconu falan bilmiyorum 
-         */}
+
           <Text style={styles.title}>
             RÜYANI ANLAT, {'\n'} YAPAY ZEKA AÇIKLASIN
           </Text>

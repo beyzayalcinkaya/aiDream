@@ -4,12 +4,12 @@ export default StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: 'rgba(0,0,0,0.42)',
+    backgroundColor: 'rgba(255,255,255,0.04)',
     borderRadius: 20,
     padding: 20,
     margin: 10,
     borderWidth: 1,
-    borderColor: 'rgba(120, 70, 255, 0.6)',
+    borderColor: 'rgba(167, 139, 250, 0.35)',
     //minHeight: 60,
   },
   image: {
@@ -31,14 +31,14 @@ export default StyleSheet.create({
   title: {
     fontSize: 17,
     fontWeight: '800',
-    color: '#FFFFFF',
+    color: '#F5F3FF',
   },
   titleWithDesc: {
     marginBottom: 5,
   },
   desc: {
     fontSize: 15,
-    color: 'rgba(255,255,255,0.78)',
+    color: 'rgba(245,243,255,0.82)',
     marginTop: 6,
     fontStyle: 'italic',
     lineHeight: 25,

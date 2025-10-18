@@ -3,28 +3,22 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#0E0A1F',
+    backgroundColor: '#0E0920',
   },
-  background: {
-    flex: 1,
-  },
-  backgroundImage: {
-    resizeMode: 'cover',
-    opacity: 0.9,
-  },
+  // removed background image styles
   header: {
     paddingHorizontal: 20,
     paddingTop: 10,
     paddingBottom: 20,
   },
   backButton: {
-    backgroundColor: 'rgba(140, 80, 255, 0.25)',
+    backgroundColor: 'rgba(124, 58, 237, 0.18)',
     borderRadius: 25,
     paddingHorizontal: 20,
     paddingVertical: 12,
     alignSelf: 'flex-start',
     borderWidth: 1,
-    borderColor: 'rgba(140, 80, 255, 0.7)',
+    borderColor: 'rgba(167, 139, 250, 0.35)',
   },
   backButtonText: {
     color: '#FFFFFF',
@@ -43,7 +37,7 @@ export default StyleSheet.create({
     padding: 14,
     backgroundColor: 'rgba(255, 255, 255, 0.04)',
     borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.10)',
+    borderColor: 'rgba(167, 139, 250, 0.18)',
   },
   titlecont: {
     marginTop: 4,
@@ -52,7 +46,7 @@ export default StyleSheet.create({
     borderRadius: 18,
     backgroundColor: 'rgba(124, 58, 237, 0.12)',
     borderWidth: 1,
-    borderColor: 'rgba(124, 58, 237, 0.45)',
+    borderColor: 'rgba(167, 139, 250, 0.35)',
   },
   title: {
     color: '#FFFFFF',
